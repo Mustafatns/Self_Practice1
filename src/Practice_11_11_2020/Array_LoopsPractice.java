@@ -17,6 +17,9 @@ public class Array_LoopsPractice {
         System.out.println(scores[1]); // 20
         System.out.println(Arrays.toString(scores)); // [10, 20, 30, 40, 50] "softed"
 
+        for (int i = 0; i <= scores.length-1; i++) {
+            System.out.println(scores[i]);
+        }
 
     }
 }
